@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Outfit:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="../images/favicon-32x32.png">
+<title>Interactive rating component</title>
+</head>
+<body>
+<div class="cuadradoContenido" id="cuadradoContenido">  
+    <div class="contenido">
+        <div class="circulo">
+            <img src="/images/icon-star.svg" alt="star" class="star">
+        </div>
+            <div class="texto">
+                <h2 class="titulo">How did we do?</h2>
+            </div>
+            <div>
+                <p class="parrafo">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            </div>
+            <div class="raiting">
+                <ul class="ulRaiting" id="ulRaiting">
+                    <li ><button class="circulo1" onclick="raiting();">1</button></li></a> 
+                    <li ><button class="circulo2" onclick="raiting2();">2</button></li></a>
+                    <li ><button class="circulo3" onclick="raiting3();">3</button></li></a>
+                    <li ><button class="circulo4" onclick="raiting4();">4</button></li></a>
+                    <li ><button class="circulo5" onclick="raiting5();">5</button></li></a>
+                </ul>
+            </div>
+            <div class="buttonSubmit">
+               <a href="#"><button class="submit" id="submit" onclick="mostrar();">SUBMIT</button></a>
+            </div>
+    </div>
+
+
+</div>
+<div class="thanksyou" id="thanksyou">
+    <div class="imagenTy">
+        <img src="/images/illustration-thank-you.svg" alt="Thanks you">
+    </div>
+        <div class="youSelect">
+            <p id="numberRaiting">You selected out of 5</p>
+        </div>
+            <div class="titulo1">
+                <h2 class="titulo2">Thank you!</h2>
+                <p class="descripcion">We apreciate you taking the time to give a rating. if you ever need more support, don´t hesitate to get in touch!</p>
+            </div>
+
+
+
+
+
+
+</div>
+<script src="app.js"></script>
+</body>
+
+</html>

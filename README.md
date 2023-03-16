@@ -1,0 +1,3 @@
+Acá dejo mi segundo reto de frontend. El codigo tiene estilos de más y el Javascript no es el más optimo, pero es mi primer intento de usar javascript con una página. Si tienes consejos y recomendaciones por favor escribirme en mi twitter @S4muelNoSoyYo o mi Github JustS4muel<3. Gracias por leer y ver mi repositoria. lindo día :3  
+
+Here I leave my second frontend challenge. The code has too many styles and the Javascript is not the most optimal, but it is my first attempt to use javascript with a page. If you have advice and recommendations please write to me on my twitter @S4muelNoSoyYo or my Github JustS4muel<3. Thanks for reading and viewing my repository. nice day :3
